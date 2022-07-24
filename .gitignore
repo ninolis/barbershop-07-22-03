@@ -1,3 +1,4 @@
+.study/
 # Logs
 logs
 *.log
@@ -107,3 +108,4 @@ github-pages-link-barbershop-07-22-02.txt
 github-pages-link-barbershop-07-22-03.txt
 barber3-study.html
 css/barber3-study.css
+study/adjacent-sibling-combinator.html
