@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JulyBarbershop</title>
-    <style>
-      p {
-        color: teal;
-      }
-    </style>
+    <title>03-JulyBarbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- img[src="./img/logo.svg" alt="Barbershop logo" width="68" height="55"]*3 -->
 
       <!-- make link -->
@@ -21,25 +22,27 @@
 
       <!-- a>img[src="./img/logo.svg" alt="Barbershop logo" width="68" height="55"] -->
       <!-- site logo -->
-      <a href=""
+      <a href="" class="header-logo"
         ><img src="./img/logo.svg" alt="Barbershop logo" width="68" height="55"
       /></a>
 
       <!-- four elements ul list with link to another pages of this site -->
       <!-- ul>li*4>{<a href="https://www.">link $</a>} -->
-      <nav>
-        <ul>
-          <li>
-            <a href="https://www."> About </a>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="https://www.adderss" class="header-link"> About </a>
           </li>
-          <li>
-            <a href="https://www."> Services and prices </a>
+          <li class="header-item">
+            <a href="https://www.adderss" class="header-link">
+              Services and prices
+            </a>
           </li>
-          <li>
-            <a href="https://www."> Barbers </a>
+          <li class="header-item">
+            <a href="https://www.adderss" class="header-link"> Barbers </a>
           </li>
-          <li>
-            <a href="https://www."> Contacts </a>
+          <li class="header-item">
+            <a href="https://www.adderss" class="header-link"> Contacts </a>
           </li>
         </ul>
       </nav>
@@ -47,41 +50,43 @@
       <!-- phone only -->
       <!-- {<a href="tel:+380449999999">}{+380 44 999 99 99</a>} -->
 
-      <a href="tel:+380449999999"> +380 44 999 99 99</a>
+      <a href="tel:+380449999999" class="header-tel"> +380 44 999 99 99</a>
 
       <!-- create button -->
       <!-- don't forget to change type !!!! -->
       <!-- button:submit{textOnButton} OR -->
       <!-- button:s{textOnButton} OR -->
       <!-- btn:s{textOnButton} -->
-      <button type="button">Online-booking</button>
+      <button type="button" class="header-btn">Online-booking</button>
     </header>
 
     <main>
       <!-- Hero section -->
       <!-- section>ul>li*2>{<a href="https://www.linkAddress$$">social $</a>} -->
-      <section>
-        <ul>
-          <li>
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item">
             <a
               href="https://www.linkAddress01"
+              class="hero-link"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >Youtube</a
             >
           </li>
-          <li>
+          <li class="hero-item">
             <a
               href="https://www.linkAddress02"
+              class="hero-link"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >Instagram</a
             >
           </li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-pre-title">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-after-title">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
